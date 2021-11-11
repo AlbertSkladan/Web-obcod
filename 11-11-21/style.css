@@ -1,0 +1,44 @@
+h1:hover{
+    color: cyan;
+  }
+div {
+    color: brown;
+}
+section > p{
+    color: greenyellow;
+    font-size: x-large;
+    background-color: rgb(48, 35, 3);
+    
+}
+section > p:hover{
+    background-color:darkred;
+}
+
+#abc:hover{
+    color: chocolate;
+    font-size: large;
+    }
+p.center{
+    text-align: center;
+        }
+a:link{
+    columns: green;
+    }
+a:visited {
+    color: green;
+        }
+      
+      
+a:hover {
+     color: hotpink;
+    
+        }
+a:active {
+     color: blue;
+        } 
+h2{
+    display: none;
+}
+h2:hover{
+    display: block;
+}
