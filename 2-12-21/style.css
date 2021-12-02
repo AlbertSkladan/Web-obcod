@@ -1,0 +1,43 @@
+.horni {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: rgba(38, 32, 62, 0.8);
+    width: 100%;
+    color:blue;
+    
+
+        }
+
+.venek{
+width: 100vw;
+height: 100vh;
+}
+
+.vnitrek{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  width: 80%;
+  background-color: brown;
+  
+}
+
+
+
+
+
+    
+
+
+
+
+    
+        
+        
