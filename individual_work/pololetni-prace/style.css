@@ -31,13 +31,13 @@ background-size: 100%,100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15%;
+    width: 100%;
     background-color:#1a1a1a;
     margin: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-family: Impact, Charcoal, sans-serif;
-    font-size: 25px;
+    font-size: 2vw;
     letter-spacing: 2px;
     word-spacing: 2px;
     color:whitesmoke;
@@ -50,7 +50,7 @@ background-size: 100%,100%;
 }
 
 .jmeno{
-    width: 25%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +58,7 @@ background-size: 100%,100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-family: Impact, Charcoal, sans-serif;
-    font-size: 30px;
+    font-size: 3.5vw;
     letter-spacing: 2px;
     word-spacing: 2px;
     color:whitesmoke;
@@ -68,7 +68,7 @@ background-size: 100%,100%;
     font-variant: normal;
     text-transform: uppercase;
 
-font-size: 2.5rem;
+
 }
 
 .page{
@@ -104,11 +104,6 @@ flex-wrap: wrap;
     background-color:transparent;
     width: 35%;
     
- 
-
-    
-    
-
 }
 .page-content{
     display: flex;
@@ -157,12 +152,12 @@ height: 12%;
 
 .mid{
     display: flex;
-    width: 30%;
+    width: 100%;
     height: 100%;
     justify-content: center;
     color: whitesmoke;
     align-items: center;
-    font-size: 2rem;
+    font-size: 2.5vw;
     font-family:sans-serif;
 
     
@@ -202,6 +197,7 @@ body{
     width: 550px;
     flex-wrap: wrap;
 }
+.render{}
 .render:hover{
 
     -webkit-transform:scale(2);
@@ -222,4 +218,30 @@ body{
 }
 .nicknames{
     display: flex;
+}
+@media only screen and (max-width: 600px){
+
+
+ 
+    .header-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color:red;
+        margin: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-family: Impact, Charcoal, sans-serif;
+        font-size: 2vw;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color:whitesmoke;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: uppercase;
+        
+    }
 }
