@@ -219,11 +219,13 @@ body{
 .nicknames{
     display: flex;
 }
+
+/*
 @media only screen and (max-width: 600px){
 
 
  
-    .header-items{
+   .header-items{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -245,3 +247,4 @@ body{
         
     }
 }
+*/
