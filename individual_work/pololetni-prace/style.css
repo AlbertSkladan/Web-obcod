@@ -1,250 +1,351 @@
-.header{
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-background: #1a1a1a;
-width: 100%;
-height: 15%;
-
-        }
-.all{
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
-   
-    
-
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-position:absolute;
-background-size: 100%,100%;
-
-    
-    
-    
-
-}
-.header-items{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color:#1a1a1a;
-    margin: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 2vw;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color:whitesmoke;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: uppercase;
-    
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
 }
 
-.jmeno{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 3.5vw;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color:whitesmoke;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: uppercase;
-
-
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
-.page{
-
-display: flex;
-
-
-flex-direction:row;
-row-gap: 5rem;
-column-gap: 15%;
-justify-content: center;
-align-items: center;
-width: 90%;
-flex-wrap: wrap;
-
-
-
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.page-holder{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top:3rem;
-    margin-bottom: 5rem;
-}
-.page-items{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-   
-    background-color:transparent;
-    width: 35%;
-    
-}
-.page-content{
-    display: flex;
-    
-    padding: 3rem;
-    height: 25rem;
-    width: 100%;
-    
-    justify-content: center;
-    align-content: center;
-    border-radius: 23px; 
-    border:6px solid #0e0f2e;
-    box-shadow: 5px 5px 15px 5px #000000; 
-box-shadow: 5px 5px 15px 5px #000000;
-background-color:rgb(233, 222, 222);
-font-size: 2rem;
-font-family:sans-serif;
-color:rgb(59, 59, 59);
-
-
-
- 
-    
-}
-.content-sorter{
-align-items: center;
-
-display: flex;
-flex-direction:column;
-}
-.content3{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
+fieldset, img {
+  border: 0;
 }
 
-
-.mid-holder{
-display: flex;
-justify-content: center;
-background-color:transparent;
-width: 100%;
-height: 12%;
+input {
+  border: 1px solid #b0b0b0;
+  padding: 3px 5px 4px;
+  color: #979797;
+  width: 190px;
 }
 
-.mid{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    color: whitesmoke;
-    align-items: center;
-    font-size: 2.5vw;
-    font-family:sans-serif;
-
-    
-
-text-shadow: 3px 5px 2px #474747;
-
-    
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
 }
 
-
-body{
-    background-image:url(1920x1080-81442-city-artist-artwork-digital-art-hd-minimalism-minimalist.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.footer{
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        background: #1a1a1a;
-        width: 100%;
-        height: 25%;
-}
-.center{
-    justify-content: center;
-    align-items: center;
-    display:flex;
-}
-.render-box{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 5px;
-    transition:transform 0.5s ease;
-    height: 310px;
-    width: 550px;
-    flex-wrap: wrap;
-}
-.render{}
-.render:hover{
-
-    -webkit-transform:scale(2);
-    transform:scale(2);
+ol, ul {
+  list-style: none;
 }
 
-.content4{
-    display: flex;
-    flex-direction: column;
-    width: 120%;
-    row-gap: 30px;
-}
-.images-text{
-    display: flex;
-    flex-direction:row;
-    column-gap: 15px;
-   
-}
-.nicknames{
-    display: flex;
+caption, th {
+  text-align: left;
 }
 
-/*
-@media only screen and (max-width: 600px){
-
-
- 
-   .header-items{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        background-color:red;
-        margin: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-family: Impact, Charcoal, sans-serif;
-        font-size: 2vw;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        color:whitesmoke;
-        font-weight: normal;
-        text-decoration: none;
-        font-style: normal;
-        font-variant: normal;
-        text-transform: uppercase;
-        
-    }
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
 }
-*/
+
+q:before, q:after {
+  content: '';
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #1a1a1a;
+  width: 100%;
+  height: 15%;
+}
+
+.header-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #1a1a1a;
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: whitesmoke;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+.jmeno {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 3.5vw;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: whitesmoke;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  row-gap: 5rem;
+  -webkit-column-gap: 15%;
+          column-gap: 15%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.page-holder {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.page-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  width: 35%;
+}
+
+.mid-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  width: 100%;
+  height: 12%;
+}
+
+.mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: whitesmoke;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5vw;
+  font-family: sans-serif;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem;
+  height: 25rem;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 23px;
+  border: 6px solid #0e0f2e;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+          box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  background-color: #e9dede;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #3b3b3b;
+}
+
+.content-sorter {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.render-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 5px;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  height: 310px;
+  width: 550px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.render:hover {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.content4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 120%;
+  row-gap: 30px;
+}
+
+.images-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.nicknames {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.all {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  background-size: 100%,100%;
+}
+
+body {
+  background-image: url(../images/1920x1080-81442-city-artist-artwork-digital-art-hd-minimalism-minimalist.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #1a1a1a;
+  width: 100%;
+  height: 25%;
+}
+/*# sourceMappingURL=style.css.map */

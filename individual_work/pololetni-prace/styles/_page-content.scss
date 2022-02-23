@@ -1,0 +1,68 @@
+.page-content{
+    display: flex;
+    
+    padding: 3rem;
+    height: 25rem;
+    width: 100%;
+    
+    justify-content: center;
+    align-content: center;
+    border-radius: 23px; 
+    border:6px solid #0e0f2e;
+    box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+background-color:$content-box-background-color;
+font-size: 2rem;
+font-family:sans-serif;
+color:rgb(59, 59, 59);
+
+    
+}
+.content-sorter{
+align-items: center;
+
+display: flex;
+flex-direction:column;
+}
+.content3{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.render-box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    transition:transform 0.5s ease;
+    height: 310px;
+    width: 550px;
+    flex-wrap: wrap;
+}
+.render:hover{
+
+    -webkit-transform:scale(2);
+    transform:scale(2);
+}
+
+.content4{
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    row-gap: 30px;
+}
+.images-text{
+    display: flex;
+    flex-direction:row;
+    column-gap: 15px;
+   
+}
+.nicknames{
+    display: flex;
+}

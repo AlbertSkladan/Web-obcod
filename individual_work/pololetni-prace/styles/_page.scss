@@ -1,0 +1,54 @@
+.page{
+    
+    display: flex;
+    
+    
+    flex-direction:row;
+    row-gap: 5rem;
+    column-gap: 15%;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+    
+    }
+
+.page-holder{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top:3rem;
+        margin-bottom: 5rem;
+    }
+.page-items{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+       
+        background-color:transparent;
+        width: 35%;
+        
+    }
+.mid-holder{
+        display: flex;
+        justify-content: center;
+        background-color:transparent;
+        width: 100%;
+        height: 12%;
+}
+        
+.mid{
+display: flex;
+width: 100%;
+height: 100%;
+justify-content: center;
+color: $header-text-color;
+align-items: center;
+font-size: 2.5vw;
+font-family:sans-serif;
+        
+            
+        
+text-shadow: 3px 5px 2px #474747;
+}
