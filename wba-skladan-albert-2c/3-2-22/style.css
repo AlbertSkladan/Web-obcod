@@ -1,0 +1,40 @@
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    height: 80vh;
+    width: 80vw;
+    
+    gap: 8vh;
+
+
+    
+    
+
+}
+.all{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(252, 255, 78, 0.842);
+}
+
+.grid-item:first-child{
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.grid-item:last-child{
+grid-column-start: 2;
+grid-column-end: 4;
+}
+
+.grid-item{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+}
