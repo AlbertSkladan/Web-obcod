@@ -1,25 +1,22 @@
-.page{
+@mixin flex-width {
     display: flex;
     width: 100%;
-    height:200% ;
+}
+.page{
+    
+    height:120% ;
     background-color:$main-backgroud-color;
     align-items: center;
     flex-direction: column;
-    row-gap: 10%;
+    justify-content: center;
+    @include flex-width;
 }
 .grey-box-container{
-    display: flex;
-    width: 100%;
+    @include flex-width;
     margin-top:10%;
+    height: 25%;
     
     justify-content: center;
-}
-.content-box-container{
-    display: flex;
-    width: 100%;
-    height: 30%;
-    justify-content: center;
-    align-items: center;
 }
 .grey-box{
     
@@ -29,7 +26,8 @@
     background-color: $grey-box-background-color;
     width: 80%;
     padding-top: 5%;
-    padding-bottom:5%;
+    padding-bottom:10%;
+    align-items: center;
     
     
 }
@@ -39,11 +37,326 @@ height: 20%;
 justify-content: center;
 align-items: center;
 display: flex;
+font-family:$global-font-family;
+font-style: normal;
+font-weight: bold;
+color: $main-backgroud-color;
+letter-spacing: 0.1em;
+font-size: 20px;
+
 
 }
 .text-grey{
     display: flex;
-    width: 100%;
+    width: 95%;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-family:$global-font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: $main-backgroud-color;
+    letter-spacing: 0.1em;
+
+}
+.grey-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top:10px;
+   width: 100%;
+}
+.grey-button-text{
+    background-color: rgba($color: #F8F7EC, $alpha: 0.3);
+    display: flex;
+    padding: 4%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family:$global-font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+//2nd part
+.content-box-container{
+    @include flex-width;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.content-box-width{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+}
+.big-container{
+
+height: 100%;
+@include flex-width;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap:10%;
+}
+.top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:$global-font-family;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: #000000;
+
+    
+}
+.image-text{
+    align-items: center;
+    height: 20%;
+    @include flex-width;
+    flex-direction: row;
+    gap:5%;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    height: 40%;
+}
+.text-header{
+    @include flex-width;
+    font-family:$global-font-family;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.text-paragraph{
+   @include flex-width;
+    font-family:$global-font-family;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.bot-button{
+    background: #7C7474;
+    display: flex;
+    padding: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family:$global-font-family;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:$main-backgroud-color;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+    
+}
+.bot-button-container{
+
+    justify-content: center;
+    @include flex-width;
+}
+.img-town{
+  
+    width:117.2px;
+    height:117.2px;
+}
+
+
+@media only screen and (min-width: 768px){
+    .page{
+        display: flex;
+        width: 100%;
+        height: 120%;
+        background-color:$main-backgroud-color;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .grey-box-container{
+        display: flex;
+        width: 100%;
+        justify-content:end;
+        align-items: flex-end;
+        margin-top: 0%;
+        height: 88%;
+        background-image: url("./images/hero-image.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:50% ;
+    }
+    .grey-box{
+        
+        display: flex;
+        flex-direction: column;
+        row-gap: 10%;
+        background-color: rgba($color:$grey-box-background-color, $alpha: 0.3);
+        height: 25%;
+        width: 45%;
+        padding-top: 5%;
+        padding-bottom:5%;
+        margin: 30px;
+    }
+    .header-grey{
+        background-color:transparent;
+        height: 20%;
+        font-style: normal;
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .text-grey{
+            display: flex;
+            width: 80%;
+            font-family:$global-font-family;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 100%;
+            line-height: 24px;
+            
+            
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.1em;
+            
+            color: #F8F7EC;
+            
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        }
+        .grey-button-container{
+            @include flex-width;
+           margin-top:10px;
+        }
+        .grey-button-text{
+            background-color:$grey-box-background-color;
+            color: $main-backgroud-color;
+            display: flex;
+            
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 150px;
+            font-style: normal;
+            font-size: 100%;
+            line-height: 13px;
+            letter-spacing: 0.1em;
+        }
+        //2nd part
+        .big-container{
+            @include flex-width;
+            height: 70%;
+            align-items:flex-start;
+            justify-content: center;
+            flex-direction: row;
+            gap:10%;
+            
+        }
+        .image-text{
+            @include flex-width;
+            align-items: center;
+            height: 40%;
+            flex-direction: column;
+            gap:5%;   
+        }
+        .img-town{
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .content-box-width{
+            height: 80%;
+            gap: 5%;
+        }
+        .top-text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:$global-font-family;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 43px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+        }
+        .text-header{
+        font-size: 24px;
+        white-space: normal;
+        justify-content: center;
+        line-height: 25px;
+        text-align: center;
+        }
+        .text-container{
+            gap:20px;
+            align-items: center;
+        }
+        .content-box-container{
+            
+            height: 100%;
+        }
+        .text-paragraph{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        line-height: 20px;
+        }
+        .bot-button{
+        width: 30%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 20px;
+        }
+       
+
+
+           
+
+        
 }

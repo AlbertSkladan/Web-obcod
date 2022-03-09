@@ -1,0 +1,126 @@
+@mixin flex-width {
+    display: flex;
+    width: 100%;
+}
+.info-page{
+    height: 90%;
+    background-color: $main-backgroud-color;
+    align-items: center;
+    justify-content: center;
+    @include flex-width;
+    
+}
+.info-page-width{
+    width: 77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    height: 100%;
+}
+.info-image-text{
+    @include flex-width;
+    justify-content:center;
+    align-items:center;
+    height: 10%;
+    gap: 5%;
+}
+.info-text-container{
+    
+    height: 100%;
+    display: flex;
+    width: 60%;
+    div{
+        font-family:$global-font-family;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
+
+
+.info-text{
+    
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.info-image{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+@mixin image-properties {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+}
+.image-covid{
+    background-image:url("./images/coronavirus.svg");
+    @include image-properties;
+}
+.image-case{
+    background-image:url("./images/luggage.svg");
+    @include image-properties;
+}
+.image-fire{
+    background-image:url("./images/sale.svg");
+    @include image-properties;
+}
+.image-papers{
+    background-image:url("./images/doc 1.svg");
+    @include image-properties;
+}
+
+
+@media only screen and (min-width: 768px){
+.info-page-width{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0%;
+    align-items: center;
+    height: 70%;
+    width: 90%;
+}
+.info-image-text{
+    width: 33%;
+    height: 20%;
+}
+@mixin image-properties-desktop{
+    background-size: 100px 100px;
+}
+.image-covid{
+@include image-properties-desktop;
+}
+.image-fire{
+    @include image-properties-desktop;
+    }
+.image-case{
+    @include image-properties-desktop;
+    }
+.image-papers{
+    @include image-properties-desktop;
+    }
+.info-image{
+width: 110px;
+height: 100px;
+}
+.info-text-container{
+    div{
+    font-size: 18px;
+    line-height: 22px;
+    }
+}
+}
