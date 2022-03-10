@@ -59,6 +59,7 @@ font-size: 20px;
     line-height: 16px;
     color: $main-backgroud-color;
     letter-spacing: 0.1em;
+    
 
 }
 .grey-button-container{
@@ -118,13 +119,14 @@ gap:10%;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
-    line-height: 1px;
-    align-items: center;
+    line-height: 20px;
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding-top: 20px;
     color: #000000;
+    height: 30px;
+    width: 100%;
 
     
 }
