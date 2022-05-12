@@ -1,0 +1,41 @@
+@import "./styles/_reset.scss";
+@import "./styles/_global.scss";
+@import "./styles/_page.scss";
+
+.all{
+    top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-color:$main-backgroud-color;
+  position: absolute;
+}
+
+.header{
+    display:flex;
+    height: 12%;
+    width: 100%;
+    background-color:$headfoot-background-color;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    
+}
+
+
+
+.footer{
+    display:flex;
+    height: 11%;
+    width: 100%;
+    background-color:$headfoot-background-color #CBC1B1;
+}
+
+
+
+
+
+
+.body{
+    display: flex;
+}

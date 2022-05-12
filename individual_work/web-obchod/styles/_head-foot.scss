@@ -18,6 +18,7 @@
      flex-direction: row;
      justify-content: center;
      align-items: center;
+     height: 100%;
  }
  .logo-container{
      display:flex;
@@ -27,6 +28,12 @@
      align-items: center;
      margin-left: 10px;
 
+ }
+ .logo:hover{
+    cursor: pointer;
+ }
+ .basket-logo{
+    cursor: pointer;
  }
 
  .nav-items{
@@ -57,7 +64,10 @@
     display: flex;
     align-items: center;
     text-align: center;
-    
+ }
+ .nav-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
  }
  .basket-logo-container{
      display: flex;
@@ -86,3 +96,34 @@
     
     color: #FFFFFF;
  }
+
+ @media only screen and (max-width: 768px){
+    .nav-item{
+        font-size: 20px;
+        
+
+    }
+    .nav-item-holder{
+        height: 50%;
+    }
+    .logo-container{
+    width: 40px;
+    height: 70px;
+    margin-left: 20px;
+    }
+    .basket-logo{
+        width: 60px;
+        height: 90px;
+    }
+    .footer-text{
+        font-size: 16px;
+    }
+    
+    
+    
+   
+    
+
+
+
+}
