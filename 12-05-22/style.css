@@ -1,0 +1,27 @@
+/*.tranzice{
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    transition: width 2s, height 2s;
+    
+}
+.tranzice:hover{
+    width: 1000px;
+    height: 1000px;
+}
+*/
+.tranzice{
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    animation-name: test;
+    animation-duration: 10s;
+}
+
+@keyframes test{
+    from {background-color: aqua;}
+    to {background-color: red;}
+}
+
+
+
